@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 13761,
+      "name": "Nguyễn Văn Tiến Hải",
+      "email": "hainvthe172670@fpt.edu.vn", 
+      "password": "user",
+      "phone": "0386828929",
+      "campusId": 1,
+      "role":"user",
+      "gender": "male",
+      "isActive": true
+    },
+    {
+      "id": 1,
+      "name": "khoa",
+      "email": "khoa@gmail.com",
+      "password": "khoa",
+      "phone": "099999999",
+      "campusId": 1,
+      "role":"admin",
+      "gender": "male",
+      "isActive": true
+
+    }
+  ],
+  "campuses": [
+    {
+      "id": 1,
+      "name": " Hà Nội - Hòa Lạc",
+      "code": "aphl"
+    },
+    {
+      "id": 2,
+      "name": "Hồ Chí Minh",
+      "code": "hcm"
+    },
+    {
+      "id": 3,
+      "name": "Cấn thơ",
+      "code": "cthor"
+    },
+    {
+      "id": 4,
+      "name": "Đà Nẵng",
+      "code": "hovi"
+    }
+  ],
+  "roleAccess":[
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ]
+  
+}

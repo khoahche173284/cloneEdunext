@@ -1,0 +1,108 @@
+.login{
+    font-size: 1.6rem;
+}
+
+.login-form{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form .img img{
+    width: 200px;
+}
+p{
+    color: #252525;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.btn-first{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-first button{
+    width: 280px;
+    height: 40px;
+    border: 2px solid #f1efef;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 1.3rem;
+}
+.btn-first button:first-child img{
+    width: 25px;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 30px;
+}
+.btn-first button img{
+    width: 90px;
+    line-height: 40px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.btn-first button:hover{
+    background-color: rgb(241, 241, 241);
+}
+.info{
+    text-align: left;
+    margin: 20px 2px;
+}
+.info p{
+    font-size: 1rem;
+}
+.info p span{
+    color: red;
+}
+.form-auth{
+    width: 500px;
+    margin: auto;
+}
+
+.form-auth {
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-auth p{
+    font-size: 1.6rem;
+}
+
+.form-auth select{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid rgb(212, 211, 211);
+    text-align: center;
+}
+
+.input-form{
+    text-align: left;
+    margin: 30px 0;
+}
+.input-form label span{
+    display: inline-block;
+    width: 100px;
+}
+.input-form label input{
+    width: 350px;
+    border: 1px solid rgb(180, 179, 179);
+    height: 40px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.form-auth button{
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    height: 40px;
+    color: #fff;
+    border: none;
+}
+.support{
+    margin: 20px;
+}
+.form-auth .xanh{
+    color: rgb(67, 136, 228);
+}

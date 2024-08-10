@@ -1,0 +1,85 @@
+.slotPage-default{
+    font-size: 1.6rem;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    .flex-left{
+        margin-right: 30px;
+        flex: 1;
+        .slot-header{
+            width: 100%;
+            .header-option{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+            }
+            p{
+                margin: 0;
+                color: #0078d4;
+                font-weight: 500;
+            }
+            .link{
+                display: inline-block;
+                height: 44px;
+                width: fit-content;
+                background-color: blue;
+                color: #fff;
+                text-decoration: none;
+                line-height: 44px;
+                margin: 0 10px;
+                padding: 0 10px;
+                border-radius: 5px;
+                font-size: 1.6rem;
+                font-weight: 500;
+                margin-top: 23px;
+            }
+           
+        }
+        .slot-learn{
+            margin-top: 20px;
+            position: fixed;
+            height: 80%;
+            overflow-y: auto;
+            width: calc(100% - 220px);
+            white-space: 'nowrap';
+            z-index: 0;
+            p{
+                &:first-of-type{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    
+    .flex-right{
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        height: 60vh;
+        padding: 0 10px 5px 0;
+        p{
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            &:last-of-type{
+                color: #38cb89;
+                transform: translateY(300px);
+            }
+        }
+        ul{
+            margin-left: 10px;
+            padding: 0;
+            list-style-type: none;
+            li{
+                cursor: pointer;
+                margin: 5px 0;
+                width: 70px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid gainsboro;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// dropdown-toggle btn btn-primary
